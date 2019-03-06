@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C4068;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin:auto;
+    width:25vw;
+    margin-top:5vh;
+    background: #fff;
+    padding:1.1rem;
+    border-radius: 10px;
+}
+#header{
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+#header h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#header p{
+    margin-top:.5rem;
+    font-weight: 500;
+}
+#body .form{
+    min-height:200px;
+    margin:.5rem;
+}
+.form label{
+    display: block;
+    width: 80%;
+    margin-bottom: 3px;
+    color: #333;
+}
+.form input{
+    width:100%;
+    padding: .3rem;
+    color: #F5F4F5;
+    margin-bottom:10px;
+    border: 1px solid #ddd;
+}
+button{
+    display: block;
+    width:100%;
+    padding: .6rem 1.5rem;
+    background: #41B998;
+    color:#fff;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+button:hover{
+    background:#2b7a64;
+    transition: background 1s ease-in-out;
+}
+.footer{
+    margin-top:15px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.footer p:first-child{
+    font-weight: 500;
+}
+.footer .links a{
+    text-decoration: none;
+}
+.out-container{
+    text-align: center;
+    margin: 1rem;
+}
+.out-container p{
+    color: #fff;
+}
+.out-container span a{
+    text-decoration: none;
+    color:#41B998;
+}
+@media(max-width:1200px){
+
+.container{
+    width:50vw;
+}
+}
+@media(max-width:500px){
+.container{
+    width:70vw;
+}
+}
